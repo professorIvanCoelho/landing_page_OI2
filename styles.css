@@ -1,0 +1,128 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffffff; 
+  color: #360A14; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+header {
+  background-color: #36213E; 
+  color: #ffffffff; 
+  padding: 30px 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+ul{
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  color: #ffffffff; 
+  text-decoration: none;
+}
+
+.main-title {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.main-title h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #36213E;
+}
+
+.main-title img {
+  width: 80%;
+  height: 400px;
+}
+
+section {
+  padding: 20px;
+}
+
+.about-game, .chosen-theme, .developers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 40px auto;
+  gap: 20px;
+}
+
+.about-game img, .chosen-theme img {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.about-game p, .chosen-theme p {
+  font-size: 1.2rem;
+  max-width: 400px;
+}
+
+.about-game h2, .chosen-theme h2 {
+  color: #472472;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.developers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.developers-list {
+  display: grid;
+  grid-template-columns: auto auto;  
+  gap: 20px;
+}
+
+.developer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.developers .developer img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  background-color: #360A14; 
+  color: #ffffffff; 
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+hr{
+  border: 1px solid #36213E; 
+  margin: 20px ;
+}
